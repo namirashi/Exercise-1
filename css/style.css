@@ -1135,7 +1135,9 @@ iframe {
 .message-box {
     padding: 30px;
 }
-
+body header{
+    background-color: #e1c8f0;
+} 
 /*-----------------------------------
  * FOOTER
  *-----------------------------------*/

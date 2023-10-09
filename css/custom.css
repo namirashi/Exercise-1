@@ -33,24 +33,31 @@
 
 body{
     height: 100%;
-    background: linear-gradient(180deg, #c1d9ff 0%, rgba(255, 255, 255, 0.2) 100%);
+    background: linear-gradient(180deg, #c1d9ff 0%, rgb(214, 200, 236) 100%);
+    font-family: Nunito Sans;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #343a40;
+    background-color: #e1c8f0;
+    font-family: Nunito Sans;
   }
-
   li {
     float: left;
-  }
+    font-family: Nunito Sans;
 
+  }
+  body header{
+    background-color: #e1c8f0;
+    font-family: Nunito Sans;
+} 
   li a {
     display: block;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
+    font-family: Nunito Sans;
     padding: 0 16px 0 16px;
     text-decoration: none;
   }
@@ -62,18 +69,19 @@ ul {
   .deskripsi{
       padding: 10px 0 0 0;
       font-size: 20px;
+      font-family: Nunito Sans;
   }
 
   .title-section{
       text-align: center;
   }
-
+ 
   #footer-section {
     padding-bottom: 5px;
     padding-top: 5px;
     padding-right: 20px;
     padding-left: 20px;
-    background: #343a40;
+    background-color: #e1c8f0;
     width: 100%;
     height: fit-content + 10px;
 }
