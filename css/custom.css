@@ -33,15 +33,15 @@
 
 body{
     height: 100%;
-    background: linear-gradient(180deg, #c1d9ff 0%, rgb(214, 200, 236) 100%);
-    font-family: Nunito Sans;
+    background: linear-gradient(180deg, #eae0d5 0%, #e8dbf8 100%);
+
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #e1c8f0;
+    background-color: #5D534A;
     font-family: Nunito Sans;
   }
   li {
@@ -50,16 +50,20 @@ ul {
 
   }
   body header{
-    background-color: #e1c8f0;
-    font-family: Nunito Sans;
+    background-color: #5D534A;
+    font-family: montserrat;
 } 
   li a {
     display: block;
-    color: rgb(0, 0, 0);
+    color: #f5f3f4;
     text-align: center;
-    font-family: Nunito Sans;
-    padding: 0 16px 0 16px;
+    font-family: poppins;
+    padding: 0 20px 0 20px;
     text-decoration: none;
+  }
+  h1{
+    padding: 0 10px 0 10px;
+    font-family: 'Lucida Sans';
   }
 
   #fotoDiri{
@@ -69,11 +73,15 @@ ul {
   .deskripsi{
       padding: 10px 0 0 0;
       font-size: 20px;
-      font-family: Nunito Sans;
+      font-family:  poppins;
+  }
+  h2{
+    padding: 10px 0 0 0;
   }
 
   .title-section{
       text-align: center;
+
   }
  
   #footer-section {
@@ -81,7 +89,7 @@ ul {
     padding-top: 5px;
     padding-right: 20px;
     padding-left: 20px;
-    background-color: #e1c8f0;
+    background-color: #5D534A;
     width: 100%;
     height: fit-content + 10px;
 }
@@ -99,6 +107,9 @@ th{
 }
 
 .list-group-item{
+ 
+    font-family: montserrat;
+    background-color: #ecdcec;
     border: none;
 }
 

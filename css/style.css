@@ -31,7 +31,7 @@ a {
 }
 
 a:hover, a:focus, a:active {
-    color: #2e00a8;
+    color: #C3B091;
     text-decoration: none;
 }
 
@@ -1151,7 +1151,7 @@ body header{
 
 .footer-links a:hover {
     text-decoration: none;
-    color: #0072ff;
+    color: #C3B091;
 }
 
 /*-----------------------------------
